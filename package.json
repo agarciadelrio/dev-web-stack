@@ -1,10 +1,33 @@
 {
-  "name": "dev-web-stack-boilerplate",
-  "private": true,
-  "version": "0.0.0",
+  "name": "php-vite-boilerplate",
+  "version": "1.0.0",
+  "description": "A modern boilerplate for developing web applications using a classic PHP backend with a modern Vite-powered frontend stack (Tailwind CSS, Alpine.js, TypeScript).",
+  "keywords": [
+    "php",
+    "vite",
+    "boilerplate",
+    "template",
+    "frontend",
+    "backend",
+    "tailwindcss",
+    "alpinejs",
+    "typescript"
+  ],
+  "author": "Antonio M. García del Río <agarciadelrio@gmail.com>",
+  "license": "MIT",
+  "homepage": "https://github.com/agarciadelrio/dev-web-stack#readme",
+  "bugs": {
+    "url": "https://github.com/agarciadelrio/dev-web-stack/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/agarciadelrio/dev-web-stack.git"
+  },
   "type": "module",
   "scripts": {
-    "dev": "concurrently \"./runserver.sh\" \"vite\"",
+    "dev": "concurrently \"pnpm:run-server\" \"pnpm:vite\"",
+    "vite": "vite",
+    "run-server": "./runserver.sh",
     "build": "tsc && vite build",
     "preview": "vite preview"
   },
