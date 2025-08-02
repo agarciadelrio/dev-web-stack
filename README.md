@@ -81,3 +81,15 @@ pnpm build
 ```
 
 This command will compile and minify the TypeScript and CSS files from `src/` and place them directly into `public_html/assets/`. The `public_html` directory is then ready to be deployed to a standard PHP hosting environment.
+
+---
+
+## AI Assistant Integration (GEMINI.md)
+
+This boilerplate includes a `GEMINI.md` file, which is a configuration guide for AI assistants like Google's Gemini. Its purpose is to provide the AI with essential context about the project, including:
+
+- The technology stack.
+- Key commands for building, developing, and testing.
+- The project structure and coding conventions.
+
+By maintaining this file, you can ensure that the AI assistant understands the project's architecture and can provide more accurate, consistent, and helpful contributions. Feel free to adapt it as your project evolves.
