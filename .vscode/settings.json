@@ -1,0 +1,17 @@
+{
+    "files.associations": {
+        "*.css": "tailwindcss"
+    },
+    "files.exclude": {
+        "**/dist": true,
+        "**/.parcel-cache": true,
+    },
+    "search.exclude": {
+        "**/public_html/assets": true,
+    },
+    "typescript.tsc.autoDetect": "off",
+    "[typescript]": {
+        "editor.defaultFormatter": "esbenp.prettier-vscode",
+        "editor.formatOnSave": true
+    }
+}
