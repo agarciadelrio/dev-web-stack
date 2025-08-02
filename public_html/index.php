@@ -1,4 +1,4 @@
 <?php
 define('ROOT',__DIR__);
-define('DEV',true);
+require 'config.php';
 require 'views/home_view.php';
