@@ -1,0 +1,26 @@
+{
+  "name": "dev-web-stack-boilerplate",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "concurrently \"./runserver.sh\" \"vite\"",
+    "build": "tsc && vite build",
+    "preview": "vite preview"
+  },
+  "devDependencies": {
+    "@tailwindcss/vite": "^4.1.11",
+    "@types/alpinejs": "^3.13.11",
+    "@types/node": "^24.1.0",
+    "concurrently": "^9.2.0",
+    "daisyui": "^5.0.50",
+    "html-minifier-terser": "^7.2.0",
+    "tailwindcss": "^4.1.11",
+    "typescript": "~5.8.3",
+    "vite": "^7.0.4",
+    "vite-plugin-full-reload": "^1.2.0"
+  },
+  "dependencies": {
+    "alpinejs": "^3.14.9"
+  }
+}

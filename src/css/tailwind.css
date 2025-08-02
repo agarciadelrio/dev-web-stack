@@ -1,0 +1,8 @@
+@import "tailwindcss";
+@plugin "daisyui";
+
+@layer components {
+    .mi-clase {
+        @apply bg-base-300;
+    }
+}
